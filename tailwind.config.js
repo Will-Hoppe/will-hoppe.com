@@ -29,8 +29,8 @@ module.exports = {
 				},
 			},
 			fontFamily: {
-				sans: ["var(--font-inter)", ...defaultTheme.fontFamily.sans],
-				display: ["var(--font-calsans)"],
+				sans: ["var(--font-Inter)", ...defaultTheme.fontFamily.sans],
+				display: ["var(--font-sans)"],
 			},
 			backgroundImage: {
 				"gradient-radial":
@@ -97,7 +97,7 @@ module.exports = {
 					},
 
 					"100%": {
-						"line-height": "100%",
+						"line-height": "200%",
 						opacity: "100%",
 					},
 				},
