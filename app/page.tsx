@@ -12,7 +12,7 @@ export default function Home() {
 	return (
 		<div className="bg-transparent z-50 h-screen border border-zinc-500">
 		<div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/30 to-slate-900">
-			<nav className="mb-16 animate-fade-in">
+			<nav className="mb-16 mt-12 animate-fade-in">
 				<ul className="flex items-center gap-7">
 					{navigation.map((item) => (
 						<Link
@@ -41,7 +41,7 @@ export default function Home() {
 
 			<div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
 			<div className="mt-24 text-center animate-fade-in">
-				<h2 className="text-base text-zinc-400 font-mono">
+				<h2 className="text-base text-zinc-400 mx-10 font-mono mb-12">
 					Hi! My name is Will. I am currently pursuing a degree in Computer Science at the University of Notre Dame.
 					<br />
 					I am interested in software engineering, particularly at the intersection of human-computer interaction and machine learning.
