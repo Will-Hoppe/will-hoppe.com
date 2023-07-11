@@ -10,8 +10,8 @@ const navigation = [
 
 export default function Home() {
 	return (
-		<div className="bg-transparent z-50 h-screen border border-zinc-500">
-		<div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/30 to-slate-900">
+		<div className="bg-transparent z-50 border border-zinc-500">
+		<div className="flex flex-col items-center min-h-screen justify-center w-screen bg-gradient-to-tl from-black via-zinc-600/30 to-slate-900">
 			<nav className="mb-16 mt-12 animate-fade-in">
 				<ul className="flex items-center gap-7">
 					{navigation.map((item) => (
@@ -30,7 +30,7 @@ export default function Home() {
 				className="absolute inset-0 -z-10 animate-fade-in"
 				quantity={300}
 			/>
-			<h1 className="z-10 text-7xl duration-700 text-transparent hover:bg-white bg-zinc-300 hover:tracking-wide cursor-default animate-title text-edge-outline font-display sm:text-5xl md:text-8xl whitespace-nowrap bg-clip-text">
+			<h1 className="z-10 text-5xl duration-700 text-transparent hover:bg-white bg-zinc-300 hover:tracking-wide cursor-default animate-title text-edge-outline font-display sm:text-5xl md:text-8xl bg-clip-text whitespace-nowrap">
 				<Link
 						href="/"
 						className="duration-200 text-edge-outline bg-clip-text"
