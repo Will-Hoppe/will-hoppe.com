@@ -12,7 +12,7 @@ const socials = [
 		className: "w-full h-full rounded-lg border border-gray-500 ease-in-out duration-[6s] hover:-translate-y-3/4"
 	},
 	{
-		href: "/",
+		href: "",
 		src: "/images/cadetscut.jpg",
 		label: "I developed and managed this website using Wordpress and Elementor for a home services provider with 250+ clients. I optimized for search engine page visibility and pushed website to becoming first result using Yoast SEO plugins. The company has shifted its focus to other business ventures and no longer maintains the website.",
 		handle: "Cadet's Cut Website",

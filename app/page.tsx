@@ -31,12 +31,12 @@ export default function Home() {
 				quantity={300}
 			/>
 			<h1 className="z-10 text-5xl duration-700 text-transparent hover:bg-white bg-zinc-300 hover:tracking-wide cursor-default animate-title text-edge-outline font-display sm:text-5xl md:text-8xl bg-clip-text whitespace-nowrap">
-				<Link
+				<a
 						href=""
 						className="duration-200 text-edge-outline bg-clip-text"
 					>
 						will-hoppe.com
-				</Link>
+				</a>
 			</h1>
 
 			<div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
