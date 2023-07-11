@@ -11,7 +11,7 @@ const navigation = [
 export default function Home() {
 	return (
 		<div className="bg-transparent z-50 border border-zinc-500">
-		<div className="flex flex-col items-center min-h-screen justify-center w-screen bg-gradient-to-tl from-black via-zinc-600/30 to-slate-900">
+		<div className="flex flex-col items-center min-h-screen justify-center min-w-screen bg-gradient-to-tl from-black via-zinc-600/30 to-slate-900">
 			<nav className="mb-16 mt-12 animate-fade-in">
 				<ul className="flex items-center gap-7">
 					{navigation.map((item) => (

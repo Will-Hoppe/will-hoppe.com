@@ -27,14 +27,14 @@ const socials = [
 
 export default function Example() {
 	return (
-		<div className="bg-transparent border border-zinc-500 bg-gradient-to-tl from-black z-0 via-zinc-900 min-h-screen to-slate-900">
+		<div className="bg-transparent border border-zinc-500 bg-gradient-to-tl from-black z-0 via-zinc-900 min-h-screen min-w-screen to-slate-900">
 		<div className="">
 			
 			<Navigation />
 			
 			<div className="container flex items-center justify-center px-4 mx-auto">
 			
-				<div className="grid w-full grid-cols-2 gap-8 mt-28 sm:mt-24 sm:grid-cols-4 lg:gap-16">
+				<div className="grid grid-cols-2 gap-8 mt-28 sm:mt-24 sm:grid-cols-4 lg:gap-16">
 				<img className="rounded-full border border-gray-500" src="/images/will.png" alt=""/>
 					{socials.map((s) => (
 						<Card>

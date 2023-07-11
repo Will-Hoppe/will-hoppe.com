@@ -29,7 +29,7 @@ const socials = [
 
 export default function Example() {
 	return (
-		<div className="border border-zinc-500 bg-gradient-to-tl from-black/0 via-zinc-600/30 to-slate-900 min-h-screen">
+		<div className="border border-zinc-500 bg-gradient-to-tl from-black/0 min-w-screen via-zinc-600/30 to-slate-900 min-h-screen">
 			<Navigation />
 			<h1 className="px-20 text-white text-2xl pt-16">Projects</h1>
 			<div className="container flex justify-center px-4 mx-auto">
