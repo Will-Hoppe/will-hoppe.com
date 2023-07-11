@@ -31,7 +31,7 @@ export default function Example() {
 	return (
 		<div className="border border-zinc-500 bg-gradient-to-tl from-black/0 min-w-screen via-zinc-600/30 to-slate-900 min-h-screen">
 			<Navigation />
-			<h1 className="px-20 text-white text-2xl pt-16">Projects</h1>
+			<h1 className="px-6 md:px-20 text-white text-2xl pt-16">Projects</h1>
 			<div className="container flex justify-center px-4 mx-auto">
 			
 				<div className="grid w-full grid-cols-1 mt-10 gap-5 pb-1 mx-auto sm:grid-cols-3 lg:gap-16">
