@@ -19,7 +19,7 @@ const socials = [
 		className: "w-full h-full rounded-lg border border-gray-500 ease-in-out duration-[6s] hover:-translate-y-2/3",
 	},
 	{
-		href: "",
+		href: "https://tune-wave.netlify.app/",
 		src: "/images/tunewave.png",
 		label: "I created this AI-powered web application using Node.js and JavaScript to effectively transform a simple concept into a full song. This website utilizes recurrent calls to OpenAI API to create dynamic responses to user prompts and generate unique and personalized song titles, lyrics, and album art.",
 		handle: "TuneWave",
