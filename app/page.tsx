@@ -66,6 +66,14 @@ const newProject = {
   className: "w-full h-full rounded-lg border border-gray-500 text-center text-xl",
 };
 
+const AIProject = {
+	href: "https://will-hoppe.itch.io/ai-vs-human-art-project",
+	src: "/images/AI_Art.png",
+	label: "",
+	handle: "AI vs Human Art Project",
+	className: "w-full h-full rounded-lg border border-gray-500 text-center text-xl",
+};
+
 export default function Home() {
   return (
     <div id="home" className="bg-transparent z-50">
@@ -143,29 +151,29 @@ export default function Home() {
 							<h1 className="text-white text-3xl">Projects</h1>
 							
 							<div className="container flex justify-center px-4 mt-10 mx-auto max-w-5xl">
-							  <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
-							    <div className="md:col-span-3 flex flex-col items-center">
-							      <Card>
-							        <Link
-							          href={newProject.href}
-							          target="_blank"
-							          className="relative flex flex-col items-center gap-4 duration-700 group lg:pb-4"
-							        >
-							          <div className="max-h-100">
-							            <img className={newProject.className} src={newProject.src} alt=""/>
-							          </div>
-							          <div className="z-10 flex flex-col items-center">
-							            <span className="text-3xl font-medium duration-150 lg:text-xl text-center text-zinc-200 group-hover:text-white font-display">
-							              {newProject.handle}
-							            </span>
-							          </div>
-							        </Link>
-							      </Card>
-							    </div>
-							    <div className="md:col-span-2 p-4 rounded-lg border border-gray-500 bg-gray-900 text-left bg-opacity-50">
-							      <p className="px-6 md:px-5 pt-6 leading-6 font-medium text-gray-300 tracking-wide">
-							        Froggy's Big Leap started as a class project in my Game Development class, but with encouragement from my professor, I decided to take it further. It's a low-stress platformer with unique movement mechanics and fun nature-themed levels.
-							      </p>
+							  <div className="grid grid-cols-1 md:grid-cols-5 gap-8 items-center">
+								<div className="md:col-span-3 flex flex-col items-center">
+								  <Card>
+									<Link
+									  href={newProject.href}
+									  target="_blank"
+									  className="relative flex flex-col items-center gap-4 duration-700 group lg:pb-4"
+									>
+									  <div className="max-h-100">
+										<img className={newProject.className} src={newProject.src} alt=""/>
+									  </div>
+									  <div className="z-10 flex flex-col items-center">
+										<span className="text-3xl font-medium duration-150 lg:text-xl text-center text-zinc-200 group-hover:text-white font-display">
+										  {newProject.handle}
+										</span>
+									  </div>
+									</Link>
+								  </Card>
+								</div>
+								<div className="md:col-span-2 p-4 rounded-lg border border-gray-500 bg-gray-900 text-left bg-opacity-50">
+								  <p className="px-6 md:px-5 pt-6 leading-6 font-medium text-gray-300 tracking-wide">
+									Froggy's Big Leap started as a class project in my Game Development class, but with encouragement from my professor, I decided to take it further. It's a low-stress platformer with unique movement mechanics and fun nature-themed levels.
+								  </p>
 								  <p className="px-6 md:px-5 pt-6 leading-6 font-medium text-gray-300 tracking-wide">
 								  With guidance from my professor, I've been able to create all assets, code, and music myself. I'm hoping to release a demo on Steam in the next few months.
 								  </p>
@@ -179,7 +187,48 @@ export default function Home() {
 										Check out my devblog!
 									</Link>
 								</div>
-							    </div>
+								</div>
+							  </div>
+							</div>
+
+							<div className="container flex justify-center px-4 mt-10 mx-auto max-w-6xl">
+							  <div className="grid grid-cols-1 md:grid-cols-5 gap-8 items-center">
+								<div className="md:col-span-2 p-4 rounded-lg border border-gray-500 bg-gray-900 text-left bg-opacity-50 flex flex-col justify-center">
+								  <p className="px-6 md:px-5 pt-6 leading-6 font-medium text-gray-300 tracking-wide">
+									I created this museum simulation for my Generative AI class final project. I used multiple diffusion models to generate unique art pieces and then had people guess which were created by AI and which were created by humans.
+								  </p>
+								  <p className="px-6 md:px-5 pt-6 leading-6 font-medium text-gray-300 tracking-wide">
+								  I built this project in Godot and stored player data in a Google Firebase database. My goal was to explore how when presented under the same context, AI-generated art can be indistinguishable from human-generated art. Generally, players were able to guess correctly about 50% of the time.
+								  </p>
+								  <br />
+								<div className="flex justify-center mt-4">
+									<Link
+										href={AIProject.href}
+										target="_blank"
+										className="px-4 py-2 text-lg font-medium text-white bg-blue-600 rounded hover:bg-blue-700"
+									>
+										Play my Project!
+									</Link>
+								</div>
+								</div>
+								<div className="md:col-span-3 flex flex-col items-center justify-center">
+								  <Card>
+									<Link
+									  href={AIProject.href}
+									  target="_blank"
+									  className="relative flex flex-col items-center gap-4 duration-700 group lg:pb-4"
+									>
+									  <div className="max-h-100">
+										<img className={AIProject.className} src={AIProject.src} alt=""/>
+									  </div>
+									  <div className="z-10 flex flex-col items-center">
+										<span className="text-3xl font-medium duration-150 lg:text-xl text-center text-zinc-200 group-hover:text-white font-display">
+										  {AIProject.handle}
+										</span>
+									  </div>
+									</Link>
+								  </Card>
+								</div>
 							  </div>
 							</div>
 									
