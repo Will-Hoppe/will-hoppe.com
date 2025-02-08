@@ -157,7 +157,7 @@ export default function Home() {
 									<Link
 									  href={newProject.href}
 									  target="_blank"
-									  className="relative flex flex-col items-center gap-4 duration-700 group lg:pb-4"
+									  className="relative flex flex-col items-center gap-4 duration-700 group pb-4"
 									>
 									  <div className="max-h-100">
 										<img className={newProject.className} src={newProject.src} alt=""/>
@@ -216,7 +216,7 @@ export default function Home() {
 									<Link
 									  href={AIProject.href}
 									  target="_blank"
-									  className="relative flex flex-col items-center gap-4 duration-700 group lg:pb-4"
+									  className="relative flex flex-col items-center gap-4 duration-700 group pb-4"
 									>
 									  <div className="max-h-100">
 										<img className={AIProject.className} src={AIProject.src} alt=""/>
@@ -233,7 +233,7 @@ export default function Home() {
 							</div>
 									
 							<div className="container flex justify-center px-4 mx-auto">	
-								<div className="grid w-full grid-cols-3 mt-10 gap-5 pb-1 mx-auto sm:grid-cols-1 lg:grid-cols-3 lg:gap-16">
+								<div className="grid w-full grid-cols-1 mt-10 gap-5 pb-1 mx-auto sm:grid-cols-1 md:grid-cols-3 lg:gap-16">
 									{projects.map((s) => (
 										<Card key={s.href}>
 											<Link
