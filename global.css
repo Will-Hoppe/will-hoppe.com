@@ -8,3 +8,10 @@
   }
 } 
 
+.article > p > img {
+  @apply w-1/2 mx-auto;
+}
+
+.article > blockquote {
+  @apply bg-gray-100 p-4 my-4;
+}
