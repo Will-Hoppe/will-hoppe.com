@@ -245,7 +245,7 @@ export default function Home() {
 													<span className="text-xl font-medium duration-150 lg:text-xl text-center text-zinc-200 group-hover:text-white font-display">
 													{s.handle}
 													</span>
-													<span className="m-4 text-sm text-center font-mono duration-1000 text-zinc-400 group-hover:text-zinc-200">
+													<span className="m-4 font-medium text-center duration-1000 text-zinc-400 group-hover:text-zinc-200 font-display tracking-wide">
 													{s.label}
 													</span>
 												</div>
