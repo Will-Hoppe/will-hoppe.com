@@ -29,7 +29,7 @@ export default async function PostPage({ params }: PageProps) {
         </div>
 
         {/* Post Content Box */}
-        <div className="mx-auto w-full max-w-4xl p-4 rounded-lg border border-gray-500 bg-gray-900 bg-opacity-50 text-left">
+        <div className="mx-auto w-full max-w-6xl p-4 rounded-lg border border-gray-500 bg-gray-900 bg-opacity-50 text-left">
           <h1 className="text-4xl font-bold mb-4">{postData.title}</h1>
           <p className="text-gray-400 text-sm mb-4">{postData.date}</p>
           <div

@@ -9,7 +9,7 @@
 } 
 
 .article > p > img {
-  @apply w-1/2 mx-auto;
+  @apply w-2/3 mx-auto;
 }
 
 .article > blockquote {
